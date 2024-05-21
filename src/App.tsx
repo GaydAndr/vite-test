@@ -1,12 +1,12 @@
 import './App.css'
-import Layout from "./components/Layout/Layout.tsx";
+// import Layout from "./components/Layout/Layout.tsx";
 import {useEffect} from "react";
 import {useAppDispatch, useAppSelector} from "./hooks/hooks.ts";
-import BoardsList from "./components/common/BoardsList/BoardsList.tsx";
+// import BoardsList from "./components/common/BoardsList/BoardsList.tsx";
 import {useLazyGetAllBoardsQuery} from "./services/board.ts";
-import {Box} from "@mui/material";
+// import {Box} from "@mui/material";
 import {boardAction} from "./store/board/boardSlice.ts";
-import CreateBoard from "./components/Header/CreateBoard/CreateBoard.tsx";
+// import CreateBoard from "./components/Header/CreateBoard/CreateBoard.tsx";
 import {categoryAction} from "./store/category/categorySlice.ts";
 import {taskAction} from "./store/task/taskSlice.ts";
 
